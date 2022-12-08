@@ -15,5 +15,8 @@ To execute the program:
   training_2 - folder to hold the pre-trained model weights(on running new train saves the weights here)
   
 
- Dataset used in the project is available at https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification
+ Dataset used in the project is available at https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification. On downloading place the data directly into Project in the following structure
+  1. Data/labels.csv
+  2. Data/traffic_Data/TRAIN
+  3. Data/traffic_Data/TEST
  
