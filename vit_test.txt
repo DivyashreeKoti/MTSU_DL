@@ -1,0 +1,41 @@
+Found 1060 images belonging to 58 classes.
+Found 3116 images belonging to 58 classes.
+Found 11 images belonging to 58 classes.
+************ True Labels [21 21 21 23 24 29 45 50 50 51 55]
+Found 1060 images belonging to 58 classes.
+Found 3116 images belonging to 58 classes.
+Found 11 images belonging to 58 classes.
+************ True Labels [21 21 21 23 24 29 45 50 50 51 55]
+List of arguments: ['./Main.py', 'test', 'vit']
+
+
+************ Base ************
+['realformer_l2.ckpt.index', 'vit_base.ckpt.data-00000-of-00001', 'vit_l2.ckpt.index', 'vit_augmented.ckpt.index', 'realformer_l2.ckpt.data-00000-of-00001', 'vit_base.ckpt.index', 'vit_augmented.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.data-00000-of-00001', 'vit_l2.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.index', 'realformer.ckpt.index', '.ipynb_checkpoints', 'realformer.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.index', 'checkpoint']
+1/1 [==============================] - ETA: 0s - loss: 2.8515 - accuracy: 0.36361/1 [==============================] - 2s 2s/step - loss: 2.8515 - accuracy: 0.3636
+vit_base ************ accuracy: 36.36%
+vit_base ************ loss:  2.85%
+************ predicted:  [22, 22, 22, 12, 21, 40, 23, 50, 50, 51, 55]
+
+
+************ L2 regularization ************
+['realformer_l2.ckpt.index', 'vit_base.ckpt.data-00000-of-00001', 'vit_l2.ckpt.index', 'vit_augmented.ckpt.index', 'realformer_l2.ckpt.data-00000-of-00001', 'vit_base.ckpt.index', 'vit_augmented.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.data-00000-of-00001', 'vit_l2.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.index', 'realformer.ckpt.index', '.ipynb_checkpoints', 'realformer.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.index', 'checkpoint']
+1/1 [==============================] - ETA: 0s - loss: 2.0127 - accuracy: 0.54551/1 [==============================] - 1s 1s/step - loss: 2.0127 - accuracy: 0.5455
+vit_l2 ************ accuracy: 54.55%
+vit_l2 ************ loss:  2.01%
+************ predicted:  [21, 19, 21, 23, 22, 40, 23, 50, 50, 51, 45]
+
+
+************ Data Without Augmentation ************
+['realformer_l2.ckpt.index', 'vit_base.ckpt.data-00000-of-00001', 'vit_l2.ckpt.index', 'vit_augmented.ckpt.index', 'realformer_l2.ckpt.data-00000-of-00001', 'vit_base.ckpt.index', 'vit_augmented.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.data-00000-of-00001', 'vit_l2.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.index', 'realformer.ckpt.index', '.ipynb_checkpoints', 'realformer.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.index', 'checkpoint']
+1/1 [==============================] - ETA: 0s - loss: 1.5737 - accuracy: 0.63641/1 [==============================] - 2s 2s/step - loss: 1.5737 - accuracy: 0.6364
+vit_augmented ************ accuracy: 63.64%
+vit_augmented ************ loss:  1.57%
+************ predicted:  [21, 21, 21, 23, 19, 45, 23, 50, 50, 51, 23]
+
+
+************ Data With Augmentation ************
+['realformer_l2.ckpt.index', 'vit_base.ckpt.data-00000-of-00001', 'vit_l2.ckpt.index', 'vit_augmented.ckpt.index', 'realformer_l2.ckpt.data-00000-of-00001', 'vit_base.ckpt.index', 'vit_augmented.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.data-00000-of-00001', 'vit_l2.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.index', 'realformer.ckpt.index', '.ipynb_checkpoints', 'realformer.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.index', 'checkpoint']
+1/1 [==============================] - ETA: 0s - loss: 2.7900 - accuracy: 0.45451/1 [==============================] - 2s 2s/step - loss: 2.7900 - accuracy: 0.4545
+vit_augmented ************ accuracy: 45.45%
+vit_augmented ************ loss:  2.79%
+************ predicted:  [21, 19, 21, 35, 15, 12, 8, 50, 50, 51, 8]

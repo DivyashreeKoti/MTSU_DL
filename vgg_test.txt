@@ -1,0 +1,27 @@
+Found 1060 images belonging to 58 classes.
+Found 3116 images belonging to 58 classes.
+Found 11 images belonging to 58 classes.
+
+
+************ True Labels of no augment [21 21 21 23 24 29 45 50 50 51 55]
+Found 1060 images belonging to 58 classes.
+Found 3116 images belonging to 58 classes.
+Found 11 images belonging to 58 classes.
+
+
+************ True Labels of augment [21 21 21 23 24 29 45 50 50 51 55]
+List of arguments: ['./Main.py', 'test', 'vgg']
+
+
+************ VGG START ************
+
+
+************ Data Without Augmentation ************
+['realformer_l2.ckpt.index', 'vit_base.ckpt.data-00000-of-00001', 'vit_l2.ckpt.index', 'vit_augmented.ckpt.index', 'realformer_l2.ckpt.data-00000-of-00001', 'vit_base.ckpt.index', 'vit_augmented.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.data-00000-of-00001', 'vit_l2.ckpt.data-00000-of-00001', 'realformer_augmented.ckpt.index', 'realformer.ckpt.index', '.ipynb_checkpoints', 'realformer.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.data-00000-of-00001', 'VGG19_base.ckpt.index', 'checkpoint']
+1/1 [==============================] - ETA: 0s - loss: 51.3904 - accuracy: 0.36361/1 [==============================] - 4s 4s/step - loss: 51.3904 - accuracy: 0.3636
+VGG19_base ************ accuracy: 36.36%
+VGG19_base ************ loss: 51.39%
+************ predicted:  [6, 19, 21, 12, 21, 29, 54, 50, 50, 21, 23]
+
+
+************ VGG END ************
