@@ -1,0 +1,2 @@
+model_checkpoint_path: "realformer_augmented.ckpt"
+all_model_checkpoint_paths: "realformer_augmented.ckpt"
