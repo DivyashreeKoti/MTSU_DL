@@ -20,3 +20,5 @@ To execute the program:
   2. Data/traffic_Data/TRAIN
   3. Data/traffic_Data/TEST
  
+ Download pre-trained model weights from : https://drive.google.com/file/d/1ItCviv-vvmWiWkSCV4vjZd2nyqE-jQS8/view?usp=share_link
+ Unzip and place under Project
